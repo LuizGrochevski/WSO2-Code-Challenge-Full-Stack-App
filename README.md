@@ -223,6 +223,23 @@ Body:
 
 ---
 
-## Licença
+## Objetivo de estudo
 
-Sem licença definida atualmente no repositório.
+Este projeto foi utilizado para praticar:
+- arquitetura full stack
+- autenticação com JWT
+- integração entre frontend e backend
+- análise de bugs e melhorias de AppSec
+
+### Troubleshooting
+
+- Verifique se o ambiente virtual do backend está ativo.
+- Confirme que as dependências do Django estão instaladas corretamente.
+- Confira se a variável `VITE_API_URL` aponta para o backend local.
+
+## Aprendizados
+
+- importância de validar fluxos reais de autenticação, não apenas estrutura de código;
+- riscos de pequenos erros em headers e controle de expiração de token;
+- necessidade de separar configuração de desenvolvimento e produção;
+- valor de revisar projetos antigos com foco em debugging e segurança.
